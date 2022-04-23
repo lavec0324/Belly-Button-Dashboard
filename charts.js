@@ -151,6 +151,12 @@ function buildCharts(sample) {
       type: 'indicator',
       mode: 'gauge+number',
       title: {text: 'Scrubs per week', font: { size: 16 }},
+      layout: {
+        // plot_bgcolor:"rgba(0,0,0,0)",
+        // paper_bgcolor:"rgba(0,0,0,0)"
+        plot_bgcolor:"gainsboro",
+        paper_bgcolor:"gainsboro"
+      },
       gauge: {
         axis: { range: [0,10], tickwidth:1, dtick:2},
         bar: {color: "black"},
@@ -169,7 +175,7 @@ function buildCharts(sample) {
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       title: {text: "<b>Bely Button Washing Frequency</b>", 
-      y: .78,
+      y: .85,
       font:{size:18}
     }  
     };
