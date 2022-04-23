@@ -151,12 +151,12 @@ function buildCharts(sample) {
       type: 'indicator',
       mode: 'gauge+number',
       title: {text: 'Scrubs per week', font: { size: 16 }},
-      layout: {
+      // layout: {
         // plot_bgcolor:"rgba(0,0,0,0)",
         // paper_bgcolor:"rgba(0,0,0,0)"
-        plot_bgcolor:"gainsboro",
-        paper_bgcolor:"gainsboro"
-      },
+      //   plot_bgcolor:"gainsboro",
+      //   paper_bgcolor:"gainsboro"
+      // },
       gauge: {
         axis: { range: [0,10], tickwidth:1, dtick:2},
         bar: {color: "black"},
