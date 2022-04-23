@@ -175,7 +175,7 @@ function buildCharts(sample) {
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
       title: {text: "<b>Bely Button Washing Frequency</b>", 
-      y: .85,
+      y: .95,
       font:{size:18}
     }  
     };
